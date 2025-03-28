@@ -1,0 +1,604 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "To Ghibli",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "To Ghibli"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Features",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "How It Works",
+          "url": "/#usage",
+          "icon": "BiCube"
+        },
+        {
+          "title": "Pricing",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Try Now",
+        "url": "/generate",
+        "target": "_self",
+        "variant": "default",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "Transform Your Photos into Ghibli Style Art with AI",
+    "highlight_text": "Ghibli Style",
+    "description": "Create stunning Ghibli-style images from your photos using advanced AI technology. Transform any image into the magical world of Studio Ghibli.",
+    "announcement": {
+      "label": "New",
+      "title": "🎨 Try Our Ghibli Style Generator",
+      "url": "/generate"
+    },
+    "tip": "🎁 Free credits for new users",
+    "buttons": [
+      {
+        "title": "Start Creating",
+        "icon": "RiFlashlightFill",
+        "url": "/generate",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "View Gallery",
+        "icon": "RiGalleryFill",
+        "url": "/gallery",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": true
+  },
+  "branding": {
+    "title": "Powered by Advanced AI Technology",
+    "items": [
+      {
+        "title": "Ghibli Diffusion",
+        "image": {
+          "src": "/imgs/logos/ghibli.svg",
+          "alt": "Ghibli Diffusion"
+        }
+      },
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "What is To Ghibli",
+    "label": "Introduce",
+    "description": "To Ghibli is an AI-powered image generator that transforms your photos into the magical art style of Studio Ghibli. Experience the wonder of Ghibli-style art creation.",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "Instant Transformation",
+        "description": "Transform any photo into Ghibli-style art in seconds with our advanced AI technology.",
+        "icon": "RiMagicFill"
+      },
+      {
+        "title": "Authentic Style",
+        "description": "Capture the essence of Studio Ghibli's unique artistic style and atmosphere.",
+        "icon": "RiPaletteFill"
+      },
+      {
+        "title": "High Quality Output",
+        "description": "Generate high-resolution Ghibli-style images perfect for any use case.",
+        "icon": "RiImageFill"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "Why Choose To Ghibli",
+    "label": "Benefits",
+    "description": "Experience the magic of Ghibli-style art creation with our powerful AI image generator.",
+    "items": [
+      {
+        "title": "Easy to Use",
+        "description": "Simple interface makes it easy to create Ghibli-style images from any photo.",
+        "icon": "RiUserSmileLine",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Multiple Styles",
+        "description": "Choose from various Ghibli-inspired styles to match your vision.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Fast Processing",
+        "description": "Get your Ghibli-style images in seconds with our optimized AI processing.",
+        "icon": "RiFlashlightLine",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "How to Create Ghibli Style Images",
+    "description": "Transform your photos into Ghibli-style art in four simple steps:",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "Upload Your Photo",
+        "description": "Choose any photo you want to transform into Ghibli-style art.",
+        "image": {
+          "src": "/imgs/features/5.png"
+        }
+      },
+      {
+        "title": "Select Style",
+        "description": "Pick your preferred Ghibli-inspired style from our collection.",
+        "image": {
+          "src": "/imgs/features/6.png"
+        }
+      },
+      {
+        "title": "Customize Settings",
+        "description": "Adjust parameters to perfect your Ghibli-style transformation.",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "Generate & Download",
+        "description": "Get your Ghibli-style image instantly and download in high quality.",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "title": "Key Features of To Ghibli",
+    "description": "Everything you need to create stunning Ghibli-style images.",
+    "items": [
+      {
+        "title": "AI-Powered Transformation",
+        "description": "Advanced AI technology ensures authentic Ghibli-style results.",
+        "icon": "RiRobot2Line"
+      },
+      {
+        "title": "Multiple Style Options",
+        "description": "Choose from various Ghibli-inspired styles and effects.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "High Resolution Output",
+        "description": "Generate high-quality Ghibli-style images suitable for any use.",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "Batch Processing",
+        "description": "Transform multiple photos into Ghibli-style art at once.",
+        "icon": "RiStackLine"
+      },
+      {
+        "title": "Custom Adjustments",
+        "description": "Fine-tune your Ghibli-style transformation with detailed controls.",
+        "icon": "RiSettings3Line"
+      },
+      {
+        "title": "Instant Download",
+        "description": "Get your Ghibli-style images immediately in various formats.",
+        "icon": "RiDownloadLine"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "showcase",
+    "title": "Ghibli Style Image Gallery",
+    "description": "See the magic of Ghibli-style transformation.",
+    "items": [
+      {
+        "title": "Portrait to Ghibli",
+        "description": "Transform portraits into Ghibli-style characters",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Landscape to Ghibli",
+        "description": "Convert landscapes into Ghibli-style scenes",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "City to Ghibli",
+        "description": "Transform cityscapes into Ghibli-style worlds",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "Nature to Ghibli",
+        "description": "Convert nature photos into Ghibli-style environments",
+        "image": {
+          "src": "/imgs/showcases/4.png"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "Stats",
+    "title": "Join Our Growing Community",
+    "description": "of Ghibli-style art creators.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Images Created",
+        "label": "1M+",
+        "description": "Ghibli-style transformations"
+      },
+      {
+        "title": "Happy Users",
+        "label": "50K+",
+        "description": "Creators"
+      },
+      {
+        "title": "Style Options",
+        "label": "10+",
+        "description": "Ghibli-inspired styles"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "Pricing",
+    "title": "Simple Pricing for Everyone",
+    "description": "Choose the perfect plan for your Ghibli-style art creation needs.",
+    "groups": [],
+    "items": [
+      {
+        "title": "Free",
+        "description": "Perfect for trying out Ghibli-style transformation.",
+        "features_title": "Includes",
+        "features": [
+          "5 free credits per month",
+          "Basic Ghibli styles",
+          "Standard resolution",
+          "Basic support"
+        ],
+        "interval": "monthly",
+        "amount": 0,
+        "currency": "USD",
+        "price": "$0",
+        "unit": "USD",
+        "is_featured": false,
+        "button": {
+          "title": "Get Started",
+          "url": "/register",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "free",
+        "product_name": "To Ghibli Free",
+        "credits": 5,
+        "valid_months": 1
+      },
+      {
+        "title": "Pro",
+        "description": "For serious Ghibli-style creators.",
+        "label": "Popular",
+        "features_title": "Everything in Free, plus",
+        "features": [
+          "100 credits per month",
+          "All Ghibli styles",
+          "High resolution output",
+          "Priority support",
+          "Batch processing",
+          "Custom adjustments"
+        ],
+        "interval": "monthly",
+        "amount": 1990,
+        "currency": "USD",
+        "price": "$19.90",
+        "unit": "USD",
+        "is_featured": true,
+        "button": {
+          "title": "Get Pro",
+          "url": "/register",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro",
+        "product_name": "To Ghibli Pro",
+        "credits": 100,
+        "valid_months": 1
+      },
+      {
+        "title": "Enterprise",
+        "description": "For large-scale Ghibli-style projects.",
+        "features_title": "Everything in Pro, plus",
+        "features": [
+          "Unlimited credits",
+          "API access",
+          "Custom style training",
+          "Dedicated support",
+          "Team collaboration",
+          "Advanced analytics"
+        ],
+        "interval": "monthly",
+        "amount": 9900,
+        "currency": "USD",
+        "price": "$99",
+        "unit": "USD",
+        "is_featured": false,
+        "button": {
+          "title": "Contact Sales",
+          "url": "/contact",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "enterprise",
+        "product_name": "To Ghibli Enterprise",
+        "credits": -1,
+        "valid_months": 1
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "Testimonial",
+    "title": "What Our Users Say",
+    "description": "Hear from creators who use To Ghibli for their art projects.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Chen",
+        "label": "Digital Artist",
+        "description": "To Ghibli has revolutionized my art creation process. The quality of Ghibli-style transformations is incredible!",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Johnson",
+        "label": "Content Creator",
+        "description": "The ease of use and variety of Ghibli styles make this tool indispensable for my creative projects.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emma Davis",
+        "label": "Game Developer",
+        "description": "As a game developer, To Ghibli helps me create consistent Ghibli-style assets quickly and efficiently.",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Have more questions? Contact our support team.",
+    "items": [
+      {
+        "title": "What is a Ghibli-style image?",
+        "description": "A Ghibli-style image captures the distinctive artistic style of Studio Ghibli animations, characterized by detailed backgrounds, vibrant colors, and a magical atmosphere."
+      },
+      {
+        "title": "How does the Ghibli style generator work?",
+        "description": "Our AI analyzes your input image and transforms it using advanced machine learning models trained on Studio Ghibli's artistic style, maintaining the essence while creating a unique interpretation."
+      },
+      {
+        "title": "What types of images can I convert to Ghibli style?",
+        "description": "You can convert any type of image, including portraits, landscapes, cityscapes, and nature photos. The generator works best with clear, well-lit images."
+      },
+      {
+        "title": "How long does it take to generate a Ghibli-style image?",
+        "description": "Most transformations are completed within seconds. Processing time may vary depending on image size and complexity."
+      },
+      {
+        "title": "What resolution are the generated Ghibli-style images?",
+        "description": "Free users get standard resolution (1024x1024), while Pro users can generate high-resolution images (2048x2048 or higher)."
+      },
+      {
+        "title": "Can I customize the Ghibli style transformation?",
+        "description": "Yes! Pro users can adjust various parameters like color intensity, style strength, and artistic elements to achieve their desired look."
+      },
+      {
+        "title": "Do I own the rights to the generated Ghibli-style images?",
+        "description": "Yes, you retain full rights to any images you create using our service. The AI-generated content is yours to use as you wish."
+      },
+      {
+        "title": "How many Ghibli-style images can I generate?",
+        "description": "Free users get 5 credits per month, Pro users get 100 credits, and Enterprise users have unlimited generation capacity."
+      },
+      {
+        "title": "What file formats are supported?",
+        "description": "We support common image formats including JPG, PNG, and WebP. Generated images are provided in high-quality PNG format."
+      },
+      {
+        "title": "Is there a batch processing feature?",
+        "description": "Yes, Pro and Enterprise users can process multiple images at once, saving time on large projects."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Start Creating Ghibli-Style Art Today",
+    "description": "Transform your photos into magical Ghibli-style images in seconds.",
+    "buttons": [
+      {
+        "title": "Try It Free",
+        "url": "/register",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      },
+      {
+        "title": "View Gallery",
+        "url": "/gallery",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "To Ghibli",
+      "description": "Transform your photos into magical Ghibli-style art with AI.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "To Ghibli"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2024 • To Ghibli All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "Product",
+          "children": [
+            {
+              "title": "Features",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Gallery",
+              "url": "/gallery",
+              "target": "_self"
+            },
+            {
+              "title": "Pricing",
+              "url": "/#pricing",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "Documentation",
+              "url": "/docs",
+              "target": "_self"
+            },
+            {
+              "title": "API",
+              "url": "/api",
+              "target": "_self"
+            },
+            {
+              "title": "Blog",
+              "url": "/blog",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Company",
+          "children": [
+            {
+              "title": "About",
+              "url": "/about",
+              "target": "_self"
+            },
+            {
+              "title": "Contact",
+              "url": "/contact",
+              "target": "_self"
+            },
+            {
+              "title": "Privacy",
+              "url": "/privacy",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Twitter",
+          "icon": "RiTwitterXFill",
+          "url": "https://twitter.com/toghibli",
+          "target": "_blank"
+        },
+        {
+          "title": "Instagram",
+          "icon": "RiInstagramFill",
+          "url": "https://instagram.com/toghibli",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/toghibli",
+          "target": "_blank"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms"
+        }
+      ]
+    }
+  }
+}

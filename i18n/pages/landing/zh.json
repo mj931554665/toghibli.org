@@ -1,0 +1,604 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "To Ghibli",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "To Ghibli"
+      },
+      "url": "/zh"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "功能特点",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "使用说明",
+          "url": "/#usage",
+          "icon": "BiCube"
+        },
+        {
+          "title": "定价",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "立即体验",
+        "url": "/generate",
+        "target": "_self",
+        "variant": "default",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "使用AI将您的照片转换为吉卜力风格艺术",
+    "highlight_text": "吉卜力风格",
+    "description": "使用先进的AI技术创建令人惊叹的吉卜力风格图像。将任何图片转换为吉卜力工作室的魔法世界。",
+    "announcement": {
+      "label": "新功能",
+      "title": "🎨 体验我们的吉卜力风格生成器",
+      "url": "/generate"
+    },
+    "tip": "🎁 新用户免费积分",
+    "buttons": [
+      {
+        "title": "开始创作",
+        "icon": "RiFlashlightFill",
+        "url": "/generate",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "查看画廊",
+        "icon": "RiGalleryFill",
+        "url": "/gallery",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": true
+  },
+  "branding": {
+    "title": "由先进AI技术驱动",
+    "items": [
+      {
+        "title": "Ghibli Diffusion",
+        "image": {
+          "src": "/imgs/logos/ghibli.svg",
+          "alt": "Ghibli Diffusion"
+        }
+      },
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "什么是 To Ghibli",
+    "label": "介绍",
+    "description": "To Ghibli 是一个AI驱动的图像生成器，可以将您的照片转换为吉卜力工作室的魔法艺术风格。体验吉卜力风格艺术创作的奇妙。",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "即时转换",
+        "description": "使用我们的先进AI技术，几秒钟内将任何照片转换为吉卜力风格艺术。",
+        "icon": "RiMagicFill"
+      },
+      {
+        "title": "真实风格",
+        "description": "捕捉吉卜力工作室独特的艺术风格和氛围。",
+        "icon": "RiPaletteFill"
+      },
+      {
+        "title": "高品质输出",
+        "description": "生成适用于任何用途的高分辨率吉卜力风格图像。",
+        "icon": "RiImageFill"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "为什么选择 To Ghibli",
+    "label": "优势",
+    "description": "使用我们强大的AI图像生成器体验吉卜力风格艺术创作的魔力。",
+    "items": [
+      {
+        "title": "简单易用",
+        "description": "简单的界面让您轻松从任何照片创建吉卜力风格图像。",
+        "icon": "RiUserSmileLine",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "多种风格",
+        "description": "选择各种吉卜力风格来匹配您的愿景。",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "快速处理",
+        "description": "通过我们优化的AI处理，几秒钟内获得吉卜力风格图像。",
+        "icon": "RiFlashlightLine",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "如何创建吉卜力风格图像",
+    "description": "通过四个简单步骤将您的照片转换为吉卜力风格艺术：",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "上传照片",
+        "description": "选择您想要转换为吉卜力风格艺术的任何照片。",
+        "image": {
+          "src": "/imgs/features/5.png"
+        }
+      },
+      {
+        "title": "选择风格",
+        "description": "从我们的收藏中选择您喜欢的吉卜力风格。",
+        "image": {
+          "src": "/imgs/features/6.png"
+        }
+      },
+      {
+        "title": "自定义设置",
+        "description": "调整参数以完善您的吉卜力风格转换。",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "生成和下载",
+        "description": "立即获取您的吉卜力风格图像并下载高质量版本。",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "title": "To Ghibli 核心功能",
+    "description": "创建令人惊叹的吉卜力风格图像所需的一切。",
+    "items": [
+      {
+        "title": "AI驱动转换",
+        "description": "先进的AI技术确保真实的吉卜力风格效果。",
+        "icon": "RiRobot2Line"
+      },
+      {
+        "title": "多种风格选项",
+        "description": "选择各种吉卜力风格和效果。",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "高分辨率输出",
+        "description": "生成适用于任何用途的高质量吉卜力风格图像。",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "批量处理",
+        "description": "一次性将多张照片转换为吉卜力风格艺术。",
+        "icon": "RiStackLine"
+      },
+      {
+        "title": "自定义调整",
+        "description": "通过详细控制微调您的吉卜力风格转换。",
+        "icon": "RiSettings3Line"
+      },
+      {
+        "title": "即时下载",
+        "description": "立即以各种格式获取您的吉卜力风格图像。",
+        "icon": "RiDownloadLine"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "showcase",
+    "title": "吉卜力风格图像画廊",
+    "description": "见证吉卜力风格转换的魔力。",
+    "items": [
+      {
+        "title": "人像转吉卜力",
+        "description": "将人像转换为吉卜力风格角色",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "风景转吉卜力",
+        "description": "将风景转换为吉卜力风格场景",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "城市转吉卜力",
+        "description": "将城市景观转换为吉卜力风格世界",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "自然转吉卜力",
+        "description": "将自然照片转换为吉卜力风格环境",
+        "image": {
+          "src": "/imgs/showcases/4.png"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "数据",
+    "title": "加入我们不断壮大的社区",
+    "description": "吉卜力风格艺术创作者。",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "已创建图像",
+        "label": "100万+",
+        "description": "吉卜力风格转换"
+      },
+      {
+        "title": "满意用户",
+        "label": "5万+",
+        "description": "创作者"
+      },
+      {
+        "title": "风格选项",
+        "label": "10+",
+        "description": "吉卜力风格"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "定价",
+    "title": "简单定价，适合所有人",
+    "description": "选择适合您吉卜力风格艺术创作需求的完美方案。",
+    "groups": [],
+    "items": [
+      {
+        "title": "免费版",
+        "description": "完美体验吉卜力风格转换。",
+        "features_title": "包含",
+        "features": [
+          "每月5个免费积分",
+          "基础吉卜力风格",
+          "标准分辨率",
+          "基础支持"
+        ],
+        "interval": "monthly",
+        "amount": 0,
+        "currency": "USD",
+        "price": "¥0",
+        "unit": "CNY",
+        "is_featured": false,
+        "button": {
+          "title": "开始使用",
+          "url": "/register",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "free",
+        "product_name": "To Ghibli 免费版",
+        "credits": 5,
+        "valid_months": 1
+      },
+      {
+        "title": "专业版",
+        "description": "适合认真的吉卜力风格创作者。",
+        "label": "热门",
+        "features_title": "包含免费版所有功能，另加",
+        "features": [
+          "每月100个积分",
+          "所有吉卜力风格",
+          "高分辨率输出",
+          "优先支持",
+          "批量处理",
+          "自定义调整"
+        ],
+        "interval": "monthly",
+        "amount": 1990,
+        "currency": "USD",
+        "price": "¥199",
+        "unit": "CNY",
+        "is_featured": true,
+        "button": {
+          "title": "获取专业版",
+          "url": "/register",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro",
+        "product_name": "To Ghibli 专业版",
+        "credits": 100,
+        "valid_months": 1
+      },
+      {
+        "title": "企业版",
+        "description": "适合大规模吉卜力风格项目。",
+        "features_title": "包含专业版所有功能，另加",
+        "features": [
+          "无限积分",
+          "API访问",
+          "自定义风格训练",
+          "专属支持",
+          "团队协作",
+          "高级分析"
+        ],
+        "interval": "monthly",
+        "amount": 9900,
+        "currency": "USD",
+        "price": "¥999",
+        "unit": "CNY",
+        "is_featured": false,
+        "button": {
+          "title": "联系销售",
+          "url": "/contact",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "enterprise",
+        "product_name": "To Ghibli 企业版",
+        "credits": -1,
+        "valid_months": 1
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "用户评价",
+    "title": "用户怎么说",
+    "description": "听听使用 To Ghibli 进行艺术创作的创作者们怎么说。",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "陈莎拉",
+        "label": "数字艺术家",
+        "description": "To Ghibli 彻底改变了我的艺术创作过程。吉卜力风格转换的质量令人难以置信！",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "迈克·约翰逊",
+        "label": "内容创作者",
+        "description": "简单易用的界面和丰富的吉卜力风格使这个工具成为我创意项目不可或缺的一部分。",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "艾玛·戴维斯",
+        "label": "游戏开发者",
+        "description": "作为游戏开发者，To Ghibli 帮助我快速高效地创建一致的吉卜力风格资源。",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "常见问题",
+    "title": "常见问题",
+    "description": "还有更多问题？联系我们的支持团队。",
+    "items": [
+      {
+        "title": "什么是吉卜力风格图像？",
+        "description": "吉卜力风格图像捕捉了吉卜力工作室动画的独特艺术风格，特点是细节丰富的背景、鲜艳的色彩和魔幻的氛围。"
+      },
+      {
+        "title": "吉卜力风格生成器是如何工作的？",
+        "description": "我们的AI分析您的输入图像，使用经过吉卜力工作室艺术风格训练的先进机器学习模型进行转换，在保持本质的同时创造独特的诠释。"
+      },
+      {
+        "title": "我可以转换什么类型的图像为吉卜力风格？",
+        "description": "您可以转换任何类型的图像，包括人像、风景、城市景观和自然照片。生成器最适合清晰、光线充足的照片。"
+      },
+      {
+        "title": "生成吉卜力风格图像需要多长时间？",
+        "description": "大多数转换在几秒钟内完成。处理时间可能因图像大小和复杂度而异。"
+      },
+      {
+        "title": "生成的吉卜力风格图像分辨率是多少？",
+        "description": "免费用户获得标准分辨率（1024x1024），专业版用户可以生成高分辨率图像（2048x2048或更高）。"
+      },
+      {
+        "title": "我可以自定义吉卜力风格转换吗？",
+        "description": "是的！专业版用户可以调整各种参数，如色彩强度、风格强度和艺术元素，以实现理想的效果。"
+      },
+      {
+        "title": "我对生成的吉卜力风格图像拥有权利吗？",
+        "description": "是的，您完全拥有使用我们的服务创建的任何图像的权利。AI生成的内容完全属于您，可以随意使用。"
+      },
+      {
+        "title": "我可以生成多少张吉卜力风格图像？",
+        "description": "免费用户每月获得5个积分，专业版用户获得100个积分，企业版用户拥有无限生成能力。"
+      },
+      {
+        "title": "支持哪些文件格式？",
+        "description": "我们支持常见的图像格式，包括JPG、PNG和WebP。生成的图像以高质量PNG格式提供。"
+      },
+      {
+        "title": "有批量处理功能吗？",
+        "description": "是的，专业版和企业版用户可以同时处理多张图像，节省大型项目的时间。"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "今天就开始创作吉卜力风格艺术",
+    "description": "几秒钟内将您的照片转换为魔幻的吉卜力风格图像。",
+    "buttons": [
+      {
+        "title": "免费试用",
+        "url": "/register",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      },
+      {
+        "title": "查看画廊",
+        "url": "/gallery",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "To Ghibli",
+      "description": "使用AI将您的照片转换为魔幻的吉卜力风格艺术。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "To Ghibli"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2024 • To Ghibli 保留所有权利。",
+    "nav": {
+      "items": [
+        {
+          "title": "产品",
+          "children": [
+            {
+              "title": "功能特点",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "画廊",
+              "url": "/gallery",
+              "target": "_self"
+            },
+            {
+              "title": "定价",
+              "url": "/#pricing",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "资源",
+          "children": [
+            {
+              "title": "文档",
+              "url": "/docs",
+              "target": "_self"
+            },
+            {
+              "title": "API",
+              "url": "/api",
+              "target": "_self"
+            },
+            {
+              "title": "博客",
+              "url": "/blog",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "公司",
+          "children": [
+            {
+              "title": "关于我们",
+              "url": "/about",
+              "target": "_self"
+            },
+            {
+              "title": "联系我们",
+              "url": "/contact",
+              "target": "_self"
+            },
+            {
+              "title": "隐私政策",
+              "url": "/privacy",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "推特",
+          "icon": "RiTwitterXFill",
+          "url": "https://twitter.com/toghibli",
+          "target": "_blank"
+        },
+        {
+          "title": "Instagram",
+          "icon": "RiInstagramFill",
+          "url": "https://instagram.com/toghibli",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/toghibli",
+          "target": "_blank"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms"
+        }
+      ]
+    }
+  }
+}
