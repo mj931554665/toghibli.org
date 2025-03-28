@@ -3,7 +3,7 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "To Ghibli",
+      "title": "ToGhibli",
       "logo": {
         "src": "/logo.png",
         "alt": "To Ghibli"
@@ -39,11 +39,11 @@
       }
     ],
     "show_sign": true,
-    "show_theme": true,
-    "show_locale": true
+    "show_theme": false,
+    "show_locale": false
   },
   "hero": {
-    "title": "Transform Your Photos into Ghibli Style Art with AI",
+    "title": "Ghibli AI Generator, Image to Ghibli Style",
     "highlight_text": "Ghibli Style",
     "description": "Create stunning Ghibli-style images from your photos using advanced AI technology. Transform any image into the magical world of Studio Ghibli.",
     "announcement": {
@@ -68,41 +68,8 @@
         "variant": "outline"
       }
     ],
-    "show_happy_users": true,
-    "show_badge": true
-  },
-  "branding": {
-    "title": "Powered by Advanced AI Technology",
-    "items": [
-      {
-        "title": "Ghibli Diffusion",
-        "image": {
-          "src": "/imgs/logos/ghibli.svg",
-          "alt": "Ghibli Diffusion"
-        }
-      },
-      {
-        "title": "Next.js",
-        "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "Next.js"
-        }
-      },
-      {
-        "title": "TailwindCSS",
-        "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "TailwindCSS"
-        }
-      },
-      {
-        "title": "Vercel",
-        "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
-        }
-      }
-    ]
+    "show_happy_users": false,
+    "show_badge": false
   },
   "introduce": {
     "name": "introduce",
@@ -523,68 +490,6 @@
               "target": "_self"
             }
           ]
-        },
-        {
-          "title": "Resources",
-          "children": [
-            {
-              "title": "Documentation",
-              "url": "/docs",
-              "target": "_self"
-            },
-            {
-              "title": "API",
-              "url": "/api",
-              "target": "_self"
-            },
-            {
-              "title": "Blog",
-              "url": "/blog",
-              "target": "_self"
-            }
-          ]
-        },
-        {
-          "title": "Company",
-          "children": [
-            {
-              "title": "About",
-              "url": "/about",
-              "target": "_self"
-            },
-            {
-              "title": "Contact",
-              "url": "/contact",
-              "target": "_self"
-            },
-            {
-              "title": "Privacy",
-              "url": "/privacy",
-              "target": "_self"
-            }
-          ]
-        }
-      ]
-    },
-    "social": {
-      "items": [
-        {
-          "title": "Twitter",
-          "icon": "RiTwitterXFill",
-          "url": "https://twitter.com/toghibli",
-          "target": "_blank"
-        },
-        {
-          "title": "Instagram",
-          "icon": "RiInstagramFill",
-          "url": "https://instagram.com/toghibli",
-          "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/toghibli",
-          "target": "_blank"
         }
       ]
     },
@@ -592,11 +497,11 @@
       "items": [
         {
           "title": "Privacy Policy",
-          "url": "/privacy"
+          "url": "/privacy-policy"
         },
         {
           "title": "Terms of Service",
-          "url": "/terms"
+          "url": "/terms-of-service"
         }
       ]
     }
